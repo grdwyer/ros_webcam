@@ -25,7 +25,7 @@ My approach (2.3 from the [ROS guide](http://wiki.ros.org/docker/Tutorials/GUI))
 
 ```bash
 docker run -it \
-    --rm
+    --rm \
     --net=host \
     --privileged \
     ros_webcam:latest
